@@ -5,7 +5,7 @@ import { FaMoon } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
 export default function ThemeSwitch() {
-    const [isSelected, setIsSelected] = useState(true);
+    const [isSelected, setIsSelected] = useState(false);
 
     useEffect(() => {
         if (!isSelected) {

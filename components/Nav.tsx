@@ -19,8 +19,8 @@ const Nav = () => {
     }
 
     return (
-        <nav className="flex justify-between items-center p-4">
-            <div className="logo text-[3rem] text-green-700 font-bol font-fredoka">
+        <nav className="flex justify-between items-center py-4">
+            <div className="logo text-[3rem] text-cAccent font-bol font-fredoka uppercase">
                 weenluk
             </div>
             <div className="nav-menu flex gap-4">

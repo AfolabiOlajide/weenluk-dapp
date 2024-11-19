@@ -11,23 +11,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
-        primary: "#1FC39E",
-        ash: "#2B2B2B",
-        yello: "#FAF2B1",
-        blu: "#1EC49E",
-        purp: "#F4E5F6",
-        orang: "#FAF2B1",
-        health: "#FEDEFF",
-        nature: "#E3ACF9",
-        tech: "#B9F3FC",
-        dark: "#1c1c24",
-        myPurple: "#8c6dfd"
+        cBlack: "#171717",
+        cBlack2: "#202020",
+        cGrey: "#B8B8B8",
+        cLightGrey: "#F7F7F7",
+        cWhite: "#FFFFFF",
+        cAccent: "#E0F64B",
+        cRed: "#F13005",
       },
       fontFamily: {
         fredoka: ['var(--font-fredoka)'],

@@ -22,7 +22,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.className} ${fredoka.variable} w-full h-screen dark:bg-dark`}
+                className={`${inter.className} ${fredoka.variable} w-full h-screen dark:bg-cBlack bg-cLightGrey`}
             >
                 <main className="cont">
                     <ThirdwebProvider>
